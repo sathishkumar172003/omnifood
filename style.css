@@ -1,0 +1,259 @@
+/*
+    FONT SIZE SYSTEM:
+
+    
+    SPACING SYSTEM:
+
+    
+    LINE HEIGHT: 
+
+    
+    PRIMARY COLOR: #e67e22
+
+    
+    TINTS: #fae5d3
+
+
+    SHADES: 
+
+
+    GRAY: #333
+          #555
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Rubik",  sans-serif;
+    line-height: 1;
+    color: #333;
+}
+
+.container {
+    max-width: 100rem;
+    margin: 0 auto;
+}
+
+.hero_section {
+    padding: 6.4rem 0;
+    background-color: #fae5d3;
+}
+
+.hero_block {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6.4rem;
+}
+
+.hero_text_block {
+    align-self: center;
+}
+
+.hero_banner_heading {
+    font-size: 4.4rem;
+    margin-bottom: 3.2rem;
+    color: #333;
+}
+
+.hero_banner_descirption {
+    font-size: 1.6rem;
+    color: #333;
+    line-height: 1.5;
+    margin-bottom: 2.2rem;
+}
+
+
+.hero_banner_image {
+    width: 100%;
+}
+
+.btn:link, .btn:visited {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.6rem;
+    padding: 1.2rem 2.2rem;
+    border-radius: 9px;
+    transition: background-color 0.3s;
+}
+
+.btn_full:link, .btn_full:visited {
+    background-color: #e67e22;
+    color: #fff;
+}
+
+.btn_outline:link, .btn_outline:visited {
+    background-color: #fff;
+    color: #555;
+}
+
+.btn_full:hover, .btn_full:active {
+    background-color: #cf711f;
+
+}
+
+.btn_outline:active, .btn_outline:hover {
+    background-color: #fae5d3;
+    box-shadow: inset 0 0 0 3px #fff;
+}
+
+.margin_right_sm {
+    margin-right: 1.6rem;
+}
+
+.delivered_meals {
+    display : flex;
+    align-items : center;
+    gap:1.6rem;
+    margin-top:3.2rem;
+}
+
+.delivered_meals_imgs {
+    display: flex;
+}
+
+.delivered_meals_imgs img {
+    height: 3.2rem;
+    width: 3.2rem;
+    border-radius: 50%;
+    margin-right: -8px;
+    border:2px solid #fae5d3;
+}
+
+
+.delivered_meals_imgs img:last-child {
+    margin:0;
+}
+.delivered_meals_text {
+    font-size: 1.4rem;
+}
+.delivered_meals_text span {
+    font-weight:900;
+    color: #cf711f
+}
+
+/* HEADER */
+
+.header_section {
+    background-color: #fae5d3;
+    padding: 2.2rem 0;
+}
+
+.nav_container {
+    max-width: 110rem;
+    margin: 0 auto;
+
+}
+
+.navigation_block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.nav_logo {
+    height: 2.6rem;
+}
+
+.main_nav_list {
+    display: flex;
+    gap: 3.2rem;
+    font-size:1.4rem;
+    list-style: none;
+}
+
+.main_nav_link.nav_btn:link, .main_nav_link.nav_btn:link  {
+    background-color: #e67e22;
+
+    color: #fff ;
+    padding: 1.2rem 2.2rem;
+    border-radius: 7px;
+}
+
+.main_nav_link.nav_btn:hover, .main_nav_link.nav_btn:active  {
+    background-color: #cf711f;
+
+ 
+}
+
+.main_nav_link:link, .main_nav_link:visited  {
+    text-decoration: none;
+    color: #333;
+    font-weight:700;
+
+}
+
+.main_nav_link:hover, .main_nav_link:active {
+    color: #cf711f
+}
+
+/* REUSABLE GRID */
+
+.grid {
+    display: grid;
+    gap: 9.6rem;
+}
+
+.grid_2_cols {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid_3_cols {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid_4_cols {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+/* STEPS SECTION  */
+.how_it_works_section header {
+    margin: 4.8rem 0;
+}
+.section_heading {
+    font-size: 4.4rem;
+}
+
+.section_sub_heading {
+    font-size: 2rem;
+    display: inline-block;
+    color: #e67e22;
+    font-weight: 700;
+    margin-bottom: 1.2rem;
+}
+
+
+
+
+.step_img {
+    width: 50%;
+}
+
+.steps_img_block {
+    text-align: center;
+}
+
+.step_number {
+    color: #777;
+    font-size: 4.4rem;
+    font-weight: 500;
+}
+
+.step_title {
+    font-size: 2.4rem;
+    margin-bottom: 2.2rem;
+}
+
+.step_description {
+    font-size:1.6rem;
+    line-height: 1.5;
+}
