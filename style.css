@@ -45,6 +45,7 @@ body {
 
 .hero_section {
     padding: 6.4rem 0;
+    margin-bottom: 8rem;
     background-color: #fae5d3;
 }
 
@@ -225,7 +226,6 @@ body {
 
 .section_sub_heading {
     font-size: 2rem;
-    display: inline-block;
     color: #e67e22;
     font-weight: 700;
     margin-bottom: 1.2rem;
@@ -257,3 +257,35 @@ body {
     font-size:1.6rem;
     line-height: 1.5;
 }
+
+/* Featured In  */
+
+.featured_in_section {
+    margin-bottom: 8rem;
+}
+
+.featured_in_heading {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.8rem;
+    color: #777;
+    
+}
+.featured_in_img_list {
+
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2.5rem;
+    
+}
+
+.featured_in_img {
+    height: 3rem;
+    filter: brightness(-50%);
+    opacity: 0.5;
+}
+
+.text_center {
+    text-align: center;
+}
+
